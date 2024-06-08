@@ -1,0 +1,24 @@
+WeaponData
+{
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			  "file"	"vgui/replay/thumbnails/crosshairs/sniper/p"
+			  "x"	"0"
+			  "y"	"0"
+			  "width"	"2048"
+			  "height"	"2048"
+		}
+		"zoom"
+		{
+			  "file"	"vgui/replay/thumbnails/crosshairs/sniper/zoom"
+			  "x"	"0"
+			  "y"	"0"
+			  "width"	"2048"
+			  "height"	"2048"
+		}
+	}
+
+}

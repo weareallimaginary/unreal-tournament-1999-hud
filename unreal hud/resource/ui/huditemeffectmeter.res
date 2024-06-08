@@ -1,0 +1,57 @@
+"Resource/UI/HudItemEffectMeter.res"
+{
+	"HudItemEffectMeter"
+	{
+		"fieldName"									"HudItemEffectMeter"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+	}
+	"ItemEffectMeter"
+	{
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"156"
+		"ypos"										"rs1-2"
+		"zpos"										"0"
+		"wide"										"49"
+		"tall"										"4"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"						"1"
+		"bgcolor_override" "Black"
+	}
+	"overlay"
+	{
+		"ControlName" "ImagePanel" "fieldName"	"overlay"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"49"
+		"tall"										"4"
+		"visible"	"1" "enabled"	"1" "scaleimage" "1" "proportionaltoparent" "1"
+		"image" "replay/thumbnails/mod"  "drawcolor" "255 208 0 255"
+		"pin_to_sibling"	"ItemEffectMeter"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"9999"
+		"ypos"										"cs-0.5"
+		"zpos"										"2"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"0"
+		"enabled"									"0"
+		"proportionaltoparent"						"1"
+		"labelText"									"#TF_Ball"
+		"textAlignment"								"center"
+		"font"										"FontStorePriceSmall"
+		"disabledfgcolor2_override"					"Gray"
+	}
+}

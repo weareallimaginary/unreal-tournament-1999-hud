@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/hud6"
+	"$vertexalpha" 1
+	"$translucent" 1
+	"$additive" 1
+}

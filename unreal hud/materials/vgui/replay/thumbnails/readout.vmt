@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/Readout"
+	"$translucent" "1"
+	"$nolod" 1 "$translucent" 1
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+		"textureScrollVar" "$basetexturetransform"
+		"textureScrollRate" 8
+		"textureScrollAngle" 90.00
+		}
+   }
+}
